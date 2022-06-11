@@ -1,13 +1,32 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>JapanJegyzetek</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .ie-only {
+      display: none;
+    }
+
+    @media screen and (-ms-high-contrast: active),
+    (-ms-high-contrast: none) {
+      .ie-only {
+        display: block;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <app-root></app-root>
+  <app-root> </app-root>
+  <div class="ie-only">
+    Ez az oldal nem működik Internet Exlorerrel. Ha meg akarod tekinteni az oldal tartalmát, akkor használj egy másik
+    böngészőt.
+  </div>
 </body>
+
 </html>
