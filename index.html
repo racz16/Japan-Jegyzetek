@@ -4,9 +4,29 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .ie-only {
+      display: none;
+    }
+
+    @media screen and (-ms-high-contrast: active),
+    (-ms-high-contrast: none) {
+      .ie-only {
+        display: block;
+      }
+    }
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
 <link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+
 <body>
-  <app-root></app-root>
-<script src="runtime.1938f1165caa2ca9.js" type="module"></script><script src="polyfills.c23c878e1d9dad45.js" type="module"></script><script src="main.c8fdc7259775d225.js" type="module"></script>
+  <app-root> </app-root>
+  <div class="ie-only">
+    Ez az oldal nem működik Internet Exlorerrel. Ha meg akarod tekinteni az oldal tartalmát, akkor használj egy másik
+    böngészőt.
+  </div>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.1938f1165caa2ca9.js" type="module"></script><script src="polyfills.c23c878e1d9dad45.js" type="module"></script><script src="main.af6f182f4898f871.js" type="module"></script>
 
 </body></html>
