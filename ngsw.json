@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1654991945752,
-  "index": "/index.html",
+  "timestamp": 1654992631204,
+  "index": "/Japan-Jegyzetek/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.af6f182f4898f871.js",
-        "/manifest.webmanifest",
-        "/polyfills.c23c878e1d9dad45.js",
-        "/runtime.1938f1165caa2ca9.js",
-        "/styles.ef46db3751d8e999.css"
+        "/Japan-Jegyzetek/favicon.ico",
+        "/Japan-Jegyzetek/index.html",
+        "/Japan-Jegyzetek/main.af6f182f4898f871.js",
+        "/Japan-Jegyzetek/manifest.webmanifest",
+        "/Japan-Jegyzetek/polyfills.c23c878e1d9dad45.js",
+        "/Japan-Jegyzetek/runtime.1938f1165caa2ca9.js",
+        "/Japan-Jegyzetek/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/Japan-Jegyzetek/assets/icons/icon-128x128.png",
+        "/Japan-Jegyzetek/assets/icons/icon-144x144.png",
+        "/Japan-Jegyzetek/assets/icons/icon-152x152.png",
+        "/Japan-Jegyzetek/assets/icons/icon-192x192.png",
+        "/Japan-Jegyzetek/assets/icons/icon-384x384.png",
+        "/Japan-Jegyzetek/assets/icons/icon-512x512.png",
+        "/Japan-Jegyzetek/assets/icons/icon-72x72.png",
+        "/Japan-Jegyzetek/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "6761fc6baf780f232669900e2155aa3d299b68f9",
-    "/main.af6f182f4898f871.js": "c5937dad53d1b5a969d8c9d7864b7459d15b951a",
-    "/manifest.webmanifest": "171dfbe389e555860a9a41db77b84697e6d48dfc",
-    "/polyfills.c23c878e1d9dad45.js": "ee163f8d717eec2bf7ab7928ab923e6b02f68f6d",
-    "/runtime.1938f1165caa2ca9.js": "393ef6a84e1d50c77a470b9846911d59e2674415",
-    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/Japan-Jegyzetek/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/Japan-Jegyzetek/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/Japan-Jegyzetek/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/Japan-Jegyzetek/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/Japan-Jegyzetek/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/Japan-Jegyzetek/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/Japan-Jegyzetek/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/Japan-Jegyzetek/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/Japan-Jegyzetek/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/Japan-Jegyzetek/index.html": "ed99a7e0eac75f1574e85f7d6e783c7af15593bd",
+    "/Japan-Jegyzetek/main.af6f182f4898f871.js": "c5937dad53d1b5a969d8c9d7864b7459d15b951a",
+    "/Japan-Jegyzetek/manifest.webmanifest": "171dfbe389e555860a9a41db77b84697e6d48dfc",
+    "/Japan-Jegyzetek/polyfills.c23c878e1d9dad45.js": "ee163f8d717eec2bf7ab7928ab923e6b02f68f6d",
+    "/Japan-Jegyzetek/runtime.1938f1165caa2ca9.js": "393ef6a84e1d50c77a470b9846911d59e2674415",
+    "/Japan-Jegyzetek/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
