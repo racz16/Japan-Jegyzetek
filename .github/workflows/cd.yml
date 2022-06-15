@@ -6,16 +6,16 @@ on:
 jobs:
   cd:
     runs-on: ubuntu-latest
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Install NodeJS
-      uses: actions/setup-node@v1
-      with:
-        node-version: "16.x"
-    - name: Install dependencies
-      run: npm ci
-    - name: Build
-      run: npm run ng build --base-href=/Japan-Jegyzetek/
-    - name: Deploy
-      run: npm run ngh -d dist
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run ng build --base-href=/Japan-Jegyzetek/
+      - name: Deploy
+        run: npm run ngh -d dist

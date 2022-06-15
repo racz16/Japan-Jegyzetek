@@ -3,16 +3,16 @@ on: pull_request
 jobs:
   ci:
     runs-on: ubuntu-latest
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Install NodeJS
-      uses: actions/setup-node@v1
-      with:
-        node-version: "16.x"
-    - name: Install dependencies
-      run: npm ci
-    - name: Build
-      run: npm build
-    - name: Run tests
-      run: npm run ng test --no-watch --no-progress --browsers=ChromeHeadlessCI
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm build
+      - name: Run tests
+        run: npm run ng test --no-watch --no-progress --browsers=ChromeHeadlessCI
