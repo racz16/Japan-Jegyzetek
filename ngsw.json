@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1654993244701,
-  "index": "/Japan-Jegyzetek/index.html",
+  "timestamp": 1655331016789,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Japan-Jegyzetek/favicon.ico",
-        "/Japan-Jegyzetek/index.html",
-        "/Japan-Jegyzetek/main.64d80fec2a1bf27d.js",
-        "/Japan-Jegyzetek/manifest.webmanifest",
-        "/Japan-Jegyzetek/polyfills.20be1fac92558ed7.js",
-        "/Japan-Jegyzetek/runtime.bf48adaef275e110.js",
-        "/Japan-Jegyzetek/styles.ef46db3751d8e999.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.7c03e6a913d12607.js",
+        "/manifest.webmanifest",
+        "/polyfills.ea4c265b11bc7aa0.js",
+        "/runtime.bf48adaef275e110.js",
+        "/styles.ef46db3751d8e999.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Japan-Jegyzetek/assets/icons/icon-128x128.png",
-        "/Japan-Jegyzetek/assets/icons/icon-144x144.png",
-        "/Japan-Jegyzetek/assets/icons/icon-152x152.png",
-        "/Japan-Jegyzetek/assets/icons/icon-192x192.png",
-        "/Japan-Jegyzetek/assets/icons/icon-384x384.png",
-        "/Japan-Jegyzetek/assets/icons/icon-512x512.png",
-        "/Japan-Jegyzetek/assets/icons/icon-72x72.png",
-        "/Japan-Jegyzetek/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/Japan-Jegyzetek/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/Japan-Jegyzetek/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/Japan-Jegyzetek/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/Japan-Jegyzetek/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/Japan-Jegyzetek/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/Japan-Jegyzetek/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/Japan-Jegyzetek/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/Japan-Jegyzetek/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/Japan-Jegyzetek/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Japan-Jegyzetek/index.html": "0ae778ee7b002df8def36b7f95b0257a8e9d28cd",
-    "/Japan-Jegyzetek/main.64d80fec2a1bf27d.js": "9d5437b1c9ebf36965f15cfecc178ab36035e9a4",
-    "/Japan-Jegyzetek/manifest.webmanifest": "94a82b07f5a23b24df8275d2d2492a30935a8388",
-    "/Japan-Jegyzetek/polyfills.20be1fac92558ed7.js": "1ac05b4b7b639c3901cc330d31d84f89f8c99b5f",
-    "/Japan-Jegyzetek/runtime.bf48adaef275e110.js": "b64d568eb8eef2568749e0cce0af5764dd0e3a46",
-    "/Japan-Jegyzetek/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "2f4dcc374fcdc4d72d4e35fdd16690a0bbcc1000",
+    "/main.7c03e6a913d12607.js": "178183e7828d0cc19a2969da4ece9727c08ca81e",
+    "/manifest.webmanifest": "94a82b07f5a23b24df8275d2d2492a30935a8388",
+    "/polyfills.ea4c265b11bc7aa0.js": "1c3ef8210d8a1b916a74ac2f6df42332b23fb65f",
+    "/runtime.bf48adaef275e110.js": "b64d568eb8eef2568749e0cce0af5764dd0e3a46",
+    "/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
