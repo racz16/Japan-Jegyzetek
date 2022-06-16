@@ -20,4 +20,4 @@ jobs:
       - name: Build
         run: npx ng build --base-href=/Japan-Jegyzetek/
       - name: Deploy
-        run: npx ngh -d dist --repo=https://${{GITHUB_TOKEN}}@github.com/racz16/Japan-Jegyzetek.git
+        run: npx ngh -d dist --repo=https://${{secrets.GITHUB_TOKEN}}@github.com/racz16/Japan-Jegyzetek.git
