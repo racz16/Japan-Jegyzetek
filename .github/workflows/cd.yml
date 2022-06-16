@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+env:
+  GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB_ACTION }}
 jobs:
   cd:
     runs-on: ubuntu-latest
