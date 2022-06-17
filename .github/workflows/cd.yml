@@ -17,9 +17,3 @@ jobs:
         run: npm ci
       - name: Build
         run: npx ng build --base-href=/Japan-Jegyzetek/
-      - name: Setting up git email
-        run: git config --global user.email "racz1666@gmail.com"
-      - name: Setting up git user name
-        run: git config --global user.name "racz16"
-      - name: Deploy
-        run: sudo npx ngh -d dist --no-silent
