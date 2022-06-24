@@ -1,0 +1,66 @@
+<div style="text-align: justify">
+  <h2>Ez egy cím</h2>
+  <p>
+    A következő kis illusztráció, - amely Szekszárdról szól és a japán nyelvű
+    Wikipédiáról származik - azt hivatott bemutatni, hogy a japán írás merőben
+    különbözik az általunk megszokottól. Nem csak azért, mert más karaktereket
+    használnak, de azért is, mert más irányba írnak. A karaktereket sorok
+    helyett oszlopokban írják, új oszlopot pedig jobbról balra kezdenek. Ezért
+    van az, hogy a szócikk címe, a jobb oldalon van és függőleges. Ettől balra,
+    oszlopokban található a bevezető és a szócikk további tartalma.
+  </p>
+  <div
+    style="
+      writing-mode: vertical-rl;
+      height: 500px;
+      text-align: justify;
+      margin: 0 auto;
+    "
+  >
+    <h1>セクサールド</h1>
+    <p>
+      セクサールド（ハンガリー語:
+      Szekszárd）は、ハンガリーのトルナ県にある都市で、同県の県都。クロアチア語名はセクサル（Seksar）。ハンガリーの県都のなかでは最も人口が少なく、面積でもタタバーニャに次いで二番目に小さい。
+    </p>
+    <h2>地理</h2>
+    <p>トランスダヌビアン丘陵と大ハンガリー平原の合流地点に位置する。</p>
+    <h2>歴史</h2>
+    <p>
+      1015年に初めて文献に登場した。1061年にはベーラ1世によりベネティクト修道院が建てられた。
+      マーチャーシュ1世在位中、セクサールドでは王に対しての陰謀に関わったヨン主教が統治していたため、マーチャーシュ1世はセクサールド城を壊滅させるよう命じた。1485年には五つの市場が一年365日開かれる大きな町になったが、オスマン帝国に支配されると衰退し、修道院も破壊された。しかし18世紀には県都となり、紋章も承認されたため再び主要な町となった。1794年には大火に見舞われたが、これがきっかけで衰退するようなことにはならなかった。19世紀に入ると町役場や県庁、教会などの重要な建物が次々と建設され、人口は14000人を数えた。1994年、全ての県都に都市郡の地位を与える法律が施行されたのに伴い、セクサールドも都市郡の地位を手に入れた。それ以前は人口5万人以上の県都でなければ都市郡の地位が与えられなかったため、人口5万人未満のセクサールドはシャルゴータルヤーンと同じく県都であっても都市郡の地位を得ることはできなかった。
+    </p>
+  </div>
+</div>
+
+<h5>Hangok</h5>
+<select [(ngModel)]="selectedJapaneseVoice">
+  <option *ngFor="let voice of japaneseVoices; let i = index" [value]="i">
+    {{ voice.name }}
+  </option>
+</select>
+<select [(ngModel)]="selectedEnglishVoice">
+  <option *ngFor="let voice of englishVoices; let i = index" [value]="i">
+    {{ voice.name }}
+  </option>
+</select>
+<select [(ngModel)]="selectedHungarianVoice">
+  <option *ngFor="let voice of hungarianVoices; let i = index" [value]="i">
+    {{ voice.name }}
+  </option>
+</select>
+<h5 class="mt-4">Mondatok</h5>
+<div class="mb-2" *ngFor="let sentence of sentences">
+  <div (click)="speak(sentence.japanese, 'ja-JP')">
+    <span class="sentence">{{ sentence.japanese }}</span>
+  </div>
+  <div class="ms-2" (click)="speak(sentence.english, 'en-US')">
+    <span class="sentence">{{ sentence.english }}</span>
+  </div>
+  <div class="ms-2" (click)="speak(sentence.hungarian, 'hu-HU')">
+    <span class="sentence">{{ sentence.hungarian }}</span>
+  </div>
+</div>
+
+<!-- kiejtés japánban, magyarban minden szótagot/szór egyféleképpen angolban
+    kettőshangzók, kb. 8000 hang -->
+

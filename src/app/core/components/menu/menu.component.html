@@ -1,0 +1,34 @@
+<div class="menu">
+  <a
+    href="/"
+    class="fs-5 fw-semibold border-bottom p-3 text-decoration-none link-dark"
+  >
+    Japán Jegyzetek
+  </a>
+  <nav class="menu-items me-1">
+    <ul class="list-unstyled p-2">
+      <li *ngFor="let mg of menu; let i = index" class="mb-1">
+        <button
+          class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+          data-bs-toggle="collapse"
+          [attr.data-bs-target]="'#menu-group-' + i"
+        >
+          {{ mg.name }}
+        </button>
+        <div class="collapse" [id]="'menu-group-' + i">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li *ngFor="let mi of mg.items">
+              <a
+                [href]="mi.path"
+                class="link-dark d-inline-flex text-decoration-none rounded"
+              >
+                {{ mi.name }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
+
