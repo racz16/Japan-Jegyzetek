@@ -17,3 +17,5 @@ jobs:
         run: npm ci
       - name: Build
         run: npx ng build --base-href=/Japan-Jegyzetek/
+      - name: Deploy
+        run: npx ng deploy
