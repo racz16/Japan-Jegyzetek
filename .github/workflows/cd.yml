@@ -18,4 +18,6 @@ jobs:
       - name: Build
         run: npx ng build --base-href=/Japan-Jegyzetek/
       - name: Deploy
-        run: npx ng deploy --no-silent --repo=https://github.com/racz16/Japan-Jegyzetek.git --name=racz16 --email=racz1666@gmail.com
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx ng deploy --base-href=/Japan-Jegyzetek/ --repo=https://github.com/racz16/Japan-Jegyzetek.git --name="racz16" --email=racz1666@gmail.com
