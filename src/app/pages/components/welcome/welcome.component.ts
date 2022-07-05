@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  OnInit,
+} from '@angular/core';
 
 export interface Sentence {
   japanese: string;
@@ -10,6 +15,7 @@ export interface Sentence {
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class WelcomeComponent implements OnInit {
   sentences = new Array<Sentence>(
@@ -31,7 +37,7 @@ export class WelcomeComponent implements OnInit {
   selectedEnglishVoice = 0;
   selectedHungarianVoice = 0;
 
-  constructor() {}
+  constructor(private cd: ChangeDetectorRef) {}
 
   ngOnInit(): void {
     speechSynthesis.getVoices();
@@ -48,6 +54,7 @@ export class WelcomeComponent implements OnInit {
         .getVoices()
         .filter((v) => v.lang === 'hu-HU');
       console.log(this.hungarianVoices);
+      this.cd.detectChanges();
     }, 0);
   }
 

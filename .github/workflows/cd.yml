@@ -15,9 +15,7 @@ jobs:
           node-version: "16.x"
       - name: Install dependencies
         run: npm ci
-      - name: Build
-        run: npx ng build --base-href=/Japan-Jegyzetek/
       - name: Deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx ng deploy --base-href=/Japan-Jegyzetek/ --repo=https://github.com/racz16/Japan-Jegyzetek.git --name="racz16" --email=racz1666@gmail.com
+        run: npx ng deploy --base-href=/Japan-Jegyzetek/
