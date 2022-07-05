@@ -18,4 +18,4 @@ jobs:
       - name: Deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx ng deploy --base-href=/Japan-Jegyzetek/
+        run: npx ng deploy --base-href=/Japan-Jegyzetek/ --name="racz16" --email=racz1666@gmail.com
