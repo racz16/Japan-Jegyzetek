@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1656033581382,
+  "timestamp": 1657040411388,
   "index": "/Japan-Jegyzetek/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/Japan-Jegyzetek/favicon.ico",
         "/Japan-Jegyzetek/index.html",
-        "/Japan-Jegyzetek/main.0614f5332da2f4f4.js",
+        "/Japan-Jegyzetek/main.0242a638c0d8f8b7.js",
         "/Japan-Jegyzetek/manifest.webmanifest",
         "/Japan-Jegyzetek/polyfills.ea4c265b11bc7aa0.js",
         "/Japan-Jegyzetek/runtime.bf48adaef275e110.js",
-        "/Japan-Jegyzetek/scripts.32238e4946a0cf3e.js",
-        "/Japan-Jegyzetek/styles.c0a42cb327e16ddf.css"
+        "/Japan-Jegyzetek/scripts.5a760000a5f57d40.js",
+        "/Japan-Jegyzetek/styles.f8e3132b35359c87.css"
       ],
       "patterns": []
     },
@@ -53,13 +53,13 @@
     "/Japan-Jegyzetek/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/Japan-Jegyzetek/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/Japan-Jegyzetek/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Japan-Jegyzetek/index.html": "a27b9829404ac654844d8371c0c7c0ef8830c220",
-    "/Japan-Jegyzetek/main.0614f5332da2f4f4.js": "d037175d6c4bbea8e77220f81bceb0e4af4efe6b",
+    "/Japan-Jegyzetek/index.html": "2c87734603063877c9dbdf73ea8e3deb41545fa8",
+    "/Japan-Jegyzetek/main.0242a638c0d8f8b7.js": "d7b0fddd052d4c13ff1d9e6d4ff45195ad755c21",
     "/Japan-Jegyzetek/manifest.webmanifest": "94a82b07f5a23b24df8275d2d2492a30935a8388",
     "/Japan-Jegyzetek/polyfills.ea4c265b11bc7aa0.js": "1c3ef8210d8a1b916a74ac2f6df42332b23fb65f",
     "/Japan-Jegyzetek/runtime.bf48adaef275e110.js": "b64d568eb8eef2568749e0cce0af5764dd0e3a46",
-    "/Japan-Jegyzetek/scripts.32238e4946a0cf3e.js": "47534d169da454eb8521ee567d621caa91a6f147",
-    "/Japan-Jegyzetek/styles.c0a42cb327e16ddf.css": "8f13286323eb984fc3d08f8dad808d5a9d9aa9f6"
+    "/Japan-Jegyzetek/scripts.5a760000a5f57d40.js": "aba27cffefc423eb8d3fa0ef0ab6e2eab9972355",
+    "/Japan-Jegyzetek/styles.f8e3132b35359c87.css": "88d4dd682b9ec0a15972f03ef32fd749d57bd196"
   },
   "navigationUrls": [
     {
