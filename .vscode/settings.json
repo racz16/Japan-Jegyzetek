@@ -1,7 +1,5 @@
 {
-    "markdownlint.ignore": [
-        "LICENSE"
-    ],
+    "markdownlint.ignore": ["LICENSE"],
     "stylelint.reportDescriptionlessDisables": true,
     "stylelint.reportInvalidScopeDisables": true,
     "stylelint.reportNeedlessDisables": true
