@@ -1,0 +1,14 @@
+{
+    "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
+    "reportDescriptionlessDisables": true,
+    "reportInvalidScopeDisables": true,
+    "reportNeedlessDisables": true,
+    "allowEmptyInput": true,
+    "rules": {
+        "no-empty-source": null,
+        "declaration-no-important": true,
+        "color-hex-length": "long",
+        "shorthand-property-no-redundant-values": null,
+        "unit-disallowed-list": ["px"]
+    }
+}
