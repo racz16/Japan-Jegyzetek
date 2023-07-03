@@ -15,6 +15,7 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
+        "test-headless": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
         "markdownlint": "markdownlint --ignore node_modules **/*.md",
         "htmlhint": "htmlhint **/*.html",
         "stylelint": "stylelint **/*.scss",
