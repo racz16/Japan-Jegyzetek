@@ -7,12 +7,13 @@
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
-                    "style": "scss"
+                    "style": "scss",
+                    "changeDetection": "OnPush"
                 }
             },
             "root": "",
             "sourceRoot": "src",
-            "prefix": "app",
+            "prefix": "jj",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
@@ -94,6 +95,7 @@
     },
     "cli": {
         "analytics": "304a9e3c-474a-4f60-8328-cb35c15c4b08",
-        "schematicCollections": ["@angular-eslint/schematics"]
+        "schematicCollections": ["@angular-eslint/schematics"],
+        "packageManager": "npm"
     }
 }
