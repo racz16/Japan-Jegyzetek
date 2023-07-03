@@ -1,5 +1,13 @@
 {
     "name": "japan-jegyzetek",
+    "description": "A website about learning the Japanese language.",
+    "homepage": "https://github.com/racz16/Japan-Jegyzetek",
+    "license": "SEE LICENSE IN LICENSE",
+    "author": {
+        "name": "Zalán Rácz",
+        "email": "zalan.racz.dev@gmail.com",
+        "url": "https://github.com/racz16"
+    },
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
