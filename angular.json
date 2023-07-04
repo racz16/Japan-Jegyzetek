@@ -13,7 +13,7 @@
             },
             "root": "",
             "sourceRoot": "src",
-            "prefix": "jj",
+            "prefix": "app",
             "architect": {
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
@@ -88,6 +88,14 @@
                     "builder": "@angular-eslint/builder:lint",
                     "options": {
                         "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+                    }
+                },
+                "deploy": {
+                    "builder": "angular-cli-ghpages:deploy",
+                    "options": {
+                        "baseHref": "/Japan-Jegyzetek/",
+                        "name": "Rácz Zalán",
+                        "email": "zalan.racz.dev@gmail.com"
                     }
                 }
             }
