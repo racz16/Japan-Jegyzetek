@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688502465746,
+  "timestamp": 1688504551200,
   "index": "/Japan-Jegyzetek/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Japan-Jegyzetek/favicon.ico",
         "/Japan-Jegyzetek/index.html",
-        "/Japan-Jegyzetek/main.5c9528f31fc62123.js",
+        "/Japan-Jegyzetek/main.d91cbd13f4f05cc6.js",
         "/Japan-Jegyzetek/manifest.webmanifest",
         "/Japan-Jegyzetek/polyfills.865882c8cf87ab92.js",
         "/Japan-Jegyzetek/runtime.ffc5613184d50d43.js",
@@ -36,7 +36,8 @@
         "/Japan-Jegyzetek/assets/icons/icon-384x384.png",
         "/Japan-Jegyzetek/assets/icons/icon-512x512.png",
         "/Japan-Jegyzetek/assets/icons/icon-72x72.png",
-        "/Japan-Jegyzetek/assets/icons/icon-96x96.png"
+        "/Japan-Jegyzetek/assets/icons/icon-96x96.png",
+        "/Japan-Jegyzetek/assets/test.png"
       ],
       "patterns": []
     }
@@ -51,9 +52,10 @@
     "/Japan-Jegyzetek/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/Japan-Jegyzetek/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/Japan-Jegyzetek/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/Japan-Jegyzetek/assets/test.png": "7d041fd36fc1179fff763d2d74b7d837ab0bb88d",
     "/Japan-Jegyzetek/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Japan-Jegyzetek/index.html": "63379d30e7adc5e3caef28321e9c690cbe74451a",
-    "/Japan-Jegyzetek/main.5c9528f31fc62123.js": "48217fe2a61755d5fdfebd55955cad102b47d010",
+    "/Japan-Jegyzetek/index.html": "48f9cb1d55152ed24334f7e9f28951b021936661",
+    "/Japan-Jegyzetek/main.d91cbd13f4f05cc6.js": "c45179ee74d10c6d65c87418f060658ed2fb6d12",
     "/Japan-Jegyzetek/manifest.webmanifest": "4b2349789ac6720d459bb2292868dec91aefed96",
     "/Japan-Jegyzetek/polyfills.865882c8cf87ab92.js": "09397a8d075234aec821daed81d30181e986e7f4",
     "/Japan-Jegyzetek/runtime.ffc5613184d50d43.js": "19d3871721f52e35e41a502afb4cdc80cb7ee3a0",
