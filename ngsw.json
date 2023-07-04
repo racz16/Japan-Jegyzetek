@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688504551200,
+  "timestamp": 1688506444942,
   "index": "/Japan-Jegyzetek/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Japan-Jegyzetek/favicon.ico",
         "/Japan-Jegyzetek/index.html",
-        "/Japan-Jegyzetek/main.d91cbd13f4f05cc6.js",
+        "/Japan-Jegyzetek/main.e08c37916da7a73f.js",
         "/Japan-Jegyzetek/manifest.webmanifest",
         "/Japan-Jegyzetek/polyfills.865882c8cf87ab92.js",
         "/Japan-Jegyzetek/runtime.ffc5613184d50d43.js",
@@ -54,8 +54,8 @@
     "/Japan-Jegyzetek/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "/Japan-Jegyzetek/assets/test.png": "7d041fd36fc1179fff763d2d74b7d837ab0bb88d",
     "/Japan-Jegyzetek/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Japan-Jegyzetek/index.html": "48f9cb1d55152ed24334f7e9f28951b021936661",
-    "/Japan-Jegyzetek/main.d91cbd13f4f05cc6.js": "c45179ee74d10c6d65c87418f060658ed2fb6d12",
+    "/Japan-Jegyzetek/index.html": "3d81a1db5ab409b1bf49f237ab0bc58c3de1914e",
+    "/Japan-Jegyzetek/main.e08c37916da7a73f.js": "2f5a8b98bff5557a9d6d6180759fcc7b9e0524aa",
     "/Japan-Jegyzetek/manifest.webmanifest": "4b2349789ac6720d459bb2292868dec91aefed96",
     "/Japan-Jegyzetek/polyfills.865882c8cf87ab92.js": "09397a8d075234aec821daed81d30181e986e7f4",
     "/Japan-Jegyzetek/runtime.ffc5613184d50d43.js": "19d3871721f52e35e41a502afb4cdc80cb7ee3a0",
